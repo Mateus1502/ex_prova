@@ -6,4 +6,7 @@ def par(a):
         return False
 a=int(input('Informe o número: '))
 é_par=par(a)
-print(é_par)
+if é_par(a):
+    print('Esse número é par')
+else:
+    print("O número é ímpar")
